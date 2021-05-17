@@ -2,6 +2,8 @@
 # Unity folders and files
 ###
 [Aa]ssets/AssetStoreTools*
+**/Firebase/
+**/Keystore/
 [Bb]uild/
 [Ll]ibrary/
 [Ll]ocal[Cc]ache/
@@ -28,6 +30,8 @@ sysinfo.txt
 *.pidb
 *.png
 *.jpg
+*.png.meta
+*.jpg.meta
 .DS_Store
 
 ###

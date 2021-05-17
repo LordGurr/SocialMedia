@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id" xmlns:tools="http://schemas.android.com/tools">
+  <string name="gcm_defaultSenderId" translatable="false">928433727908</string>
+  <string name="google_storage_bucket" translatable="false">mysocialmedia-1781d.appspot.com</string>
+  <string name="project_id" translatable="false">mysocialmedia-1781d</string>
+  <string name="google_api_key" translatable="false">AIzaSyAcKobvPArkEPK6J85UKwwxOo3_pfVCjVo</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAcKobvPArkEPK6J85UKwwxOo3_pfVCjVo</string>
+  <string name="google_app_id" translatable="false">1:928433727908:android:76da95529242a9a8fa7931</string>
+  <string name="default_web_client_id" translatable="false">928433727908-q631feskvc9kcoi5si4itnlvri912ont.apps.googleusercontent.com</string>
+</resources>
