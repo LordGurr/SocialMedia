@@ -33,6 +33,7 @@ sysinfo.txt
 *.png.meta
 *.jpg.meta
 .DS_Store
+google-services.json
 
 ###
 # OS generated
