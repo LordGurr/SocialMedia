@@ -13,7 +13,8 @@ public class displayImage : MonoBehaviour
     private enum Moving
     {
         Up,
-        Down
+        Down,
+        Middle
     }
 
     public void buttonPressed()
@@ -31,6 +32,10 @@ public class displayImage : MonoBehaviour
             //animator.enabled = true;
             //animator.SetTrigger("moveDown");
             StartCoroutine(anim(image, Moving.Down));
+        }
+        else
+        {
+            StartCoroutine(anim(image, Moving.Middle));
         }
     }
 
@@ -66,6 +71,9 @@ public class displayImage : MonoBehaviour
                 setElasticity();
                 yield return null;
             }
+        }
+        else if (moving == Moving.Middle)
+        {
         }
         currentMenu.displayingImage = false;
         image.localPosition = new Vector2(0, 0);
